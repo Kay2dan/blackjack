@@ -1,0 +1,30 @@
+.button {
+  border: 0;
+  padding: 7.5px 15px;
+  margin : 0 3px;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-color-primary {
+  background: #029dd8;
+  color: #fff;
+}
+.button-color-primary:hover {
+  background: #0078a6;
+}
+
+.button-color-tertiary {
+  background: #eceff1;
+  color: #36464E;
+}
+
+.button-color-tertiary:hover {
+  background: #b0bec5;
+}
+
+.disabled {
+   background: rgb( 211, 211, 211 );
+   pointer-events: none;
+}
